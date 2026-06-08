@@ -1,0 +1,20 @@
+{
+  "repo": "Multi-classification-identification-of-medical-dermatology",
+  "url": "https://github.com/DavidZhu258/Multi-classification-identification-of-medical-dermatology",
+  "tier": "A-core",
+  "priority_score": 89,
+  "project_bucket": "Medical computer vision / classification",
+  "eval_type": "cv_classification",
+  "gold_target": "1000+ images",
+  "seed_case_count": 3,
+  "local_target_detected": null,
+  "files": [
+    "gold_testset_plan.md",
+    "evals/README.md",
+    "evals/gold/seed_gold.jsonl",
+    "evals/gold/full_gold.jsonl",
+    "evals/gold/annotation_template.csv",
+    "evals/rubrics/rubric.yaml",
+    "evals/scripts/README.md"
+  ]
+}

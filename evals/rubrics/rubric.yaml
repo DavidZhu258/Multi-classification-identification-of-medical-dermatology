@@ -1,0 +1,25 @@
+repo: "Multi-classification-identification-of-medical-dermatology"
+eval_type: "cv_classification"
+schema: "cv_classification_case.schema.json"
+gold_target: "1000+ images"
+scoring:
+  accuracy_weight: 0.70
+  feasibility_weight: 0.30
+  seed_suite_required: true
+  hard_negatives_required: true
+metrics:
+  - macro_f1
+  - balanced_accuracy
+  - auc
+  - melanoma_sensitivity
+  - specificity
+  - calibration_ece
+reporting_fields:
+  - run_id
+  - git_commit
+  - dataset_version
+  - accuracy_summary
+  - feasibility_summary
+  - failures
+  - cost
+  - latency
