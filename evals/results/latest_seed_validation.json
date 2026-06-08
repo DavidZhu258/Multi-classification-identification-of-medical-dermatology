@@ -1,0 +1,41 @@
+{
+  "status": "pass",
+  "generated_at": "2026-06-08T17:25:11Z",
+  "repo": "Multi-classification-identification-of-medical-dermatology",
+  "seed_path": "evals\\gold\\seed_gold.jsonl",
+  "seed_case_count": 3,
+  "hard_negative_count": 1,
+  "referenced_file_count": 7,
+  "referenced_files": {
+    "evaluation_results.csv": {
+      "size_bytes": 715,
+      "sha256": "5785c49ff68cf3f7dbda9999809b2135c5d99cf8b0d31ffa7567601b8c0bf40e"
+    },
+    "README.md": {
+      "size_bytes": 18422,
+      "sha256": "544710a21f1e88b0ef528e7b32d2850bad323202024a04f143109510ede572cf"
+    },
+    "results/comprehensive_metrics.png": {
+      "size_bytes": 231697,
+      "sha256": "c216bf58ccb157d0165f88b6da3e22f7e1cb460d7f5b55ada33d79dc6f2efdce"
+    },
+    "models/model_loader.py": {
+      "size_bytes": 9261,
+      "sha256": "4a1438e7057dbd71847f5a1bae8df20297e7c0573048521a8ad7ee6cd96e47fc"
+    },
+    "code/evaluate_pretrained_models.py": {
+      "size_bytes": 24348,
+      "sha256": "24f271e528e8f92b7158a4a514c5900ee83b6a7e2eab5b8c0b731ed0b78ea685"
+    },
+    "README_EN.md": {
+      "size_bytes": 16135,
+      "sha256": "03e23d068c4527be4145597aa344f07d743b3009e7ebea2aec798cfcb1583690"
+    },
+    "MODEL_DOWNLOAD_GUIDE.md": {
+      "size_bytes": 17718,
+      "sha256": "fe5d86f27f245bac5d820f435badd9e2dcd06475aa1f6411beac0816c1124c12"
+    }
+  },
+  "failures": [],
+  "note": "This validates gold seed traceability and feasibility scaffolding; it does not claim model-quality scores yet."
+}

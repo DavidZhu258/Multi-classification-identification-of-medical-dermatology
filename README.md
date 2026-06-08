@@ -473,3 +473,12 @@ print(f"预测类别: {predicted_class}, 置信度: {confidence:.3f}")
 - `results/swin_ablation_20251009_214816/`: ViT + Focal Loss实验
 - `results/swin_ablation_20251009_222821/`: 完整Swin消融实验
 - 所有训练日志包含详细的epoch-by-epoch记录
+
+## Evaluation Evidence
+
+This repository includes a seed-gold evaluation scaffold under `evals/`.
+
+- Plan: [`gold_testset_plan.md`](gold_testset_plan.md)
+- Current results: [`EVAL_RESULTS.md`](EVAL_RESULTS.md)
+- Latest machine-readable validation: [`evals/results/latest_seed_validation.json`](evals/results/latest_seed_validation.json)
+- GitHub Actions: `Eval Seed Validation`
